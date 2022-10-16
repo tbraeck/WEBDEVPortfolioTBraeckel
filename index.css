@@ -1,13 +1,9 @@
-/* HTML WINDOW SIZE */
-html {
-    max-width: 800px;
-    max-height: 600px;
-    margin: 0;
-    position: relative;
+#body {
+    background-color: rgb(159, 158, 158);
 }
 
 /* TITLE */
-h1 {
+/* h1 {
     font-size: 100px;
     font-family: fantasy;
     color: rgb(8, 8, 7);
@@ -16,11 +12,11 @@ h1 {
     position: relative;
     top: -20px;
 
-}
+} */
 
 /* h2 instructions */
 
-#header {
+/* #header {
     position: absolute;
     left: 110px;
     top: 500px;
@@ -29,20 +25,20 @@ h1 {
     color: darkorchid;
     text-decoration: underline;
 
-}
+} */
 
 /* instructions */
-ol {
+/* ol {
     position: absolute;
     left: 20px;
     top: 570px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
     color: rgb(222, 73, 85);
-}
+} */
 
 /* PINK BOX */
-.boxed {
+/* .boxed {
     position: absolute;
     left: 30px;
     padding: 5px 50px;
@@ -50,10 +46,10 @@ ol {
     padding-right: -40px;
     border: 1px solid rgb(244, 29, 233);
     border-width: 5px;
-}
+} */
 
 /* PROJECT WORD */
-#project {
+/* #project {
     font-size: 100px;
     font-family: fantasy;
     color: rgb(8, 8, 7);
@@ -61,15 +57,15 @@ ol {
     position: absolute;
     left: 200px;
     top: 225px;
-}
+} */
 
 /* DATE ANCHOR */
-#anchor {
+/* #anchor {
     position: static;
-}
+} */
 
 /* DATE BUTTON */
-#myBtn {
+/* #myBtn {
     background-color: #4CAF50;
     border: none;
     position: absolute;
@@ -81,53 +77,92 @@ ol {
     text-decoration: none;
     display: inline-block;
     font-size: 40px;
+} */
+.html #buttoncontainer {
+    display: flex;
+    height: 1200px;
+    flex-direction: column;
 }
 
-/* DATE BLANK <p> */
-#demo {
-    font-size: 25px;
-    color: #4CAF50;
-    position: absolute;
-    left: 800px;
-    top: 200px;
-    text-align: right;
+#myBtn,
+#myBtn1,
+#myBtn2 {
+    width: 300px;
+    height: 85px;
+    margin: auto;
+
+    display: inline;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+}
+
+:hover {
+    box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.01);
+}
+
+#container {
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+}
+
+#subcont1 {
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+
 }
 
 /* KITTY IMG */
-#cutie {
-    position: relative;
-    padding: 0;
-    left: 1100px;
-    top: 500px;
-    z-index: 2;
+#onfire {
+    width: 514px;
+    /* Or whatever */
+    height: 800px;
+    /* Or whatever */
+    margin: auto;
+    border: 10px color: #000000;
+
 }
 
-/* GIRL IMG */
-#smooosh {
+
+/* GIRL IMG #smooosh {
     position: absolute;
     left: 1115px;
     top: 525px;
     z-index: 1;
-}
+} */
 
 /* KITTY TEXT */
-#cute-text {
+/* #cute-text {
     font-size: 40px;
     padding: 10px 20px;
     color: #665aea;
     position: absolute;
     left: 1085px;
     top: 370px;
-}
+} */
 
 /* UNICORN IMG */
-#uni {
+/* #uni {
 
     width: 78px;
     height: 130px;
-}
+} */
 
-#dfloor {
+/* #dfloor {
     font-size: 40px;
     position: absolute;
     width: 500px;
@@ -137,13 +172,13 @@ ol {
     opacity: 1;
     margin-bottom: 0 auto;
 
-}
+} */
 
-div {
+/* div {
     color: rgb(173, 198, 198);
-}
+} */
 
-/* api search */
+/* api search
 #apisearch {
     font-size: 20px;
     position: absolute;
@@ -155,19 +190,23 @@ div {
     height: 100%;
     margin: o auto;
 
-}
+} */
 
-#result {
+/* #fieldset {
+    width: 450px;
+} */
+
+/* #result {
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
-}
+} */
 
 
 
-#box {
+/* #box {
     background-color: palegreen;
-    width: 150px;
+    width: 100px;
     height: 150px;
 }
 
@@ -175,7 +214,7 @@ div {
     display: none;
     background-color: violet;
     color: white;
-}
+} */
 
 /* #iterate {
     top: 400px;
@@ -184,4 +223,4 @@ div {
     position: absolute;
     background-color: rgb(162, 162, 243);
     font-size: 35px;
-} */
+}
