@@ -1,5 +1,5 @@
-#body {
-    background-color: rgb(159, 158, 158);
+.html#body {
+    background-color: #f9f3ef;
 }
 
 
@@ -103,6 +103,8 @@
     border: 10px color: #000000;
 
 }
+
+;
 
 /* #hairy {
     width: 1054px;
